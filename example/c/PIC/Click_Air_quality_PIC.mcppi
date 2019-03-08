@@ -1,0 +1,74 @@
+[DEVICE]
+Name=P18F87K22
+Clock=64000000
+[BUILD_TYPE]
+Value=0
+
+[MEMORY_MODEL]
+Value=0
+[ACTIVE_TAB]
+Value=Click_Air_quality_adc.h
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+File0=Click_Air_quality_PIC.c
+File1=..\..\..\library\__airquality_Driver.c
+Count=2
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+File0=Click_Air_quality_PIC.c
+File1=..\..\..\library\__airquality_Driver.c
+File2=Click_Air_quality_adc.h
+Count=3
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Path0=..\..\..\library\HAL\
+Path1=..\..\..\library\
+Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\mikroBUS Board Definition API\Uses\
+Count=3
+[HEADER_PATH]
+Path0=..\..\..\library\
+Path1=..\..\..\library\HAL\
+Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\mikroBUS Board Definition API\Uses\
+Count=3
+[HEADERS]
+File0=..\..\..\library\__airquality_driver.h
+File1=Click_Air_quality_config.h
+File2=Click_Air_quality_types.h
+Count=3
+[PLDS]
+File0=Click_Air_quality.pld
+Count=1
+[Useses]
+File0=easypicpro_v7_P18F87K22
+File1=ADC
+File2=UART
+File3=Conversions
+File4=C_String
+Count=5
+[EXPANDED_NODES]
+0=Click_Air_quality_PIC.mcppi
+1=Sources
+Count=2
+[LIB_EXPANDED_NODES]
+0=mikroE Libraries
+1=System Libraries
+891=mikroSDK Libraries
+892=mikroBUS Board Definition API
+896=Click Libraries
+Count=5

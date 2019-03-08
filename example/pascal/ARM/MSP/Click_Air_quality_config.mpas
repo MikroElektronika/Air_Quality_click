@@ -1,0 +1,5 @@
+unit Click_Air_quality_config;
+
+uses Click_Air_quality_types;
+
+end.

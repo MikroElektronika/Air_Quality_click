@@ -1,0 +1,25 @@
+module Click_Air_quality_adc
+
+include Click_Air_quality_types
+
+sub procedure airquality_adcInit() 
+sub function  airquality_readADC() as uint32_t 
+
+implements
+
+sub procedure airquality_adcInit() 
+
+    ADC_Init() 
+
+end sub
+
+sub function  airquality_readADC() as uint32_t 
+dim
+    readADC as uint32_t
+
+    readADC = ADC_Get_Sample(0) 
+    result = readADC 
+
+end sub
+
+end.

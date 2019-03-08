@@ -1,0 +1,5 @@
+module Click_Air_quality_config
+
+include Click_Air_quality_types
+
+end.

@@ -1,0 +1,27 @@
+unit Click_Air_quality_adc;
+
+uses Click_Air_quality_types;
+
+procedure airquality_adcInit(); 
+function  airquality_readADC() :  uint32_t; 
+
+implementation
+
+procedure airquality_adcInit(); 
+begin
+
+    ADC_Init(); 
+
+end;
+
+function  airquality_readADC() :  uint32_t; 
+var
+    readADC : uint32_t;
+begin
+
+    readADC := ADC_Get_Sample(0); 
+    result := readADC; 
+
+end;
+
+end.
